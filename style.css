@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #2a6496;
+}
+
+#chart-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+#data-table-container {
+    margin-top: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f7f7f7;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+} 
