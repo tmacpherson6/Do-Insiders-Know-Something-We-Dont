@@ -11,43 +11,6 @@ h1 {
     margin-bottom: 30px; /* More space below main title */
 }
 
-/* Remove or comment out old #chart-container if no longer directly used 
-#chart-container {
-    width: 80%;
-    max-width: 800px;
-    margin: 30px auto;
-    border: 1px solid #ddd;
-    padding: 15px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-}
-*/
-
-/* Remove or comment out old #data-table-container and table styles if no longer used
-#data-table-container {
-    margin-top: 40px;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
-
-thead {
-    background-color: #f7f7f7;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-*/
-
 .chart-section {
     margin-bottom: 40px;
     padding: 15px;
