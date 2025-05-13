@@ -2,13 +2,16 @@ body {
     font-family: sans-serif;
     margin: 20px;
     color: #333;
+    background-color: #f4f4f4; /* Light gray background for the page */
 }
 
 h1 {
     text-align: center;
     color: #2a6496;
+    margin-bottom: 30px; /* More space below main title */
 }
 
+/* Remove or comment out old #chart-container if no longer directly used 
 #chart-container {
     width: 80%;
     max-width: 800px;
@@ -17,7 +20,9 @@ h1 {
     padding: 15px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
+*/
 
+/* Remove or comment out old #data-table-container and table styles if no longer used
 #data-table-container {
     margin-top: 40px;
 }
@@ -40,4 +45,28 @@ thead {
 
 tr:nth-child(even) {
     background-color: #f2f2f2;
+}
+*/
+
+.chart-section {
+    margin-bottom: 40px;
+    padding: 15px;
+    border: 1px solid #eee;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+    background-color: #fff;
+}
+
+.chart-section h2 {
+    text-align: center;
+    color: #337ab7; /* A slightly different blue for chart titles */
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.chart-container-fixed-height {
+    width: 90%; /* Make charts a bit wider within their section */
+    max-width: 700px; /* Max width for very large screens */
+    height: 400px; /* Fixed height for consistency */
+    margin: 0 auto; /* Center the chart container */
+    position: relative; /* Needed for Chart.js responsiveness within a fixed height container */
 } 
