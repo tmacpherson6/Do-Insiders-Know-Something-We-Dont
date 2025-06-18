@@ -9,6 +9,11 @@ Project Title
 Insider Trading: *Do Corporate Insiders Know Something We Don't?*  
 (See: `Insider Trading: Do Corporate Insiders Know Something We Don't?.docx' Project Proposal)
 
+Note: This github repository has been forked from our original project so that I, Thomas MacPherson, can clean up some code 
+and continue with the exploration and analysis of the data. 
+
+To see the original github repository please visit: https://github.com/RamiHaider/Do-Insiders-Know-Something-We-Dont
+
 Project Overview
 ----------------
 This project builds a comprehensive dataset of insider transactions from **Q1 2006 through Q1 2025**, extracted from **SEC Form 4 filings**. It analyzes insider buying and selling patterns, combines this data with stock price history, and evaluates the predictive power of insider activity.
