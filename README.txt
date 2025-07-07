@@ -51,6 +51,16 @@ Using `yfinance`, we supplement SEC insider transaction data with:
 This enables long-horizon return analysis and factor-adjusted performance evaluation of insider trades.
 
 ---
+Data Pipeline
+-----------------
+We have created a Makefile data pipeline in order to download and gather data 
+automatically. You just need to run ! make <makefile name> and it will check
+to see if everything is up to date. If not, it will download and update all
+CSV files for you for future data analysis.
+
+1. **`download_sec_zips.py`** 
+   Downloads SEC zip files to a local directory titles sec_zips. This will allow the following scripts to parse and combine the data.
+   
 
 Jupyter Notebooks
 -----------------
