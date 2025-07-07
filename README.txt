@@ -64,6 +64,9 @@ CSV files for you for future data analysis.
 2. **`process_sec_zips.py`**
    Processes all download SEC Zips to extract pertinent insider trading infromation including insider, company, shares, etc.
 
+3. **`yfinance_api_call.py`**
+   Use the stored CSV file to query the yfinance API in order to pull price data for 7 months surrounding insider transactions.
+
 Jupyter Notebooks
 -----------------
 Pre. **`Virtual_Environment_Setup.ipynb`**
