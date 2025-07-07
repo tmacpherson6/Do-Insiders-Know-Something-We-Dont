@@ -76,12 +76,5 @@ def download_sec_zips(save_dir: str = "sec_zips") -> None:
 
 
 if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "input", help="Save Directory for SEC Form 4 ZIP files", default="sec_zips"
-    )
-    args = parser.parse_args()
-
+    # We don't need to use argparse sicne we are clarifiying the save directory
     download_sec_zips(save_dir=args.input)
