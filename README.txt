@@ -60,7 +60,9 @@ CSV files for you for future data analysis.
 
 1. **`download_sec_zips.py`** 
    Downloads SEC zip files to a local directory titles sec_zips. This will allow the following scripts to parse and combine the data.
-   
+
+2. **`process_sec_zips.py`**
+   Processes all download SEC Zips to extract pertinent insider trading infromation including insider, company, shares, etc.
 
 Jupyter Notebooks
 -----------------
