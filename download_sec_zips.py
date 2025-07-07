@@ -77,4 +77,4 @@ def download_sec_zips(save_dir: str = "sec_zips") -> None:
 
 if __name__ == "__main__":
     # We don't need to use argparse sicne we are clarifiying the save directory
-    download_sec_zips(save_dir=args.input)
+    download_sec_zips()
